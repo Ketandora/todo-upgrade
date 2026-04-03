@@ -29,7 +29,7 @@ function App() {
       setInput("");
       setLoading(false);
 
-    }, 800); // fake loading delay
+    }, 800); // to show its loading 
   };
 
   const onDelete = (todo) => {
@@ -42,7 +42,6 @@ function App() {
 
       <div className="container my-3">
 
-        {/* INPUT SECTION */}
         <div className="d-flex gap-2">
           <input
             className="form-control"
@@ -55,10 +54,9 @@ function App() {
           </button>
         </div>
 
-        {/* LOADING */}
+    
         {loading && <p className="text-primary mt-2">Adding todo...</p>}
 
-        {/* TODOS */}
         <Todos todos={todos} onDelete={onDelete} />
 
       </div>
