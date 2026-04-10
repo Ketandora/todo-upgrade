@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Header from "./myComponents/Header";
-import Todos from "./myComponents/Todos";
-import Footer from "./myComponents/Footer";
+import Header from "./Header";
+import Todos from "./Todos";
+import Footer from "./Footer";
 
 function App() {
 
@@ -11,21 +11,23 @@ function App() {
 
   const addTodo = () => {
 
-    setLoading(true);
+    
 
-    setTimeout(() => {
+   
       if (input.trim() === "") {
         setLoading(false);
+        alert("Nothing entered")
         return;
       }
-
+      setLoading(true);
+ setTimeout(() => {
       const newTodo = {
         sno: Date.now(),
         title: input,
         desc: "User added task"
       };
 
-      setTodos([...todos, newTodo]);
+      setTodos([...todos, newTodo]);// does old array + new elements as react needs new refrence
       setInput("");
       setLoading(false);
 
@@ -49,7 +51,7 @@ function App() {
             onChange={(e) => setInput(e.target.value)}
             placeholder="Enter todo..."
           />
-          <button className="btn btn-primary" onClick={addTodo}>
+          <button className="btn btn-success" onClick={addTodo}>
             Add
           </button>
         </div>
