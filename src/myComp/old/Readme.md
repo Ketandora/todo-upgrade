@@ -1,16 +1,16 @@
 # Todo Upgrade
 
-![Home Page](./screenshot/home.png)
+![Home Page](screenshot/home.png)
 
-This is a React based Todo App that I built experimenting frontend development inorder to improve my understanding on React.
+This is a React based Todo App that I built while experimenting with frontend development to improve my understanding of React.
 
-In this project, I have focused on practicing concepts like component-based architecture, props, state management, hooks, routing, and local storage by building a practical application.
+In this project, I focused on practicing concepts like component-based architecture, props, state management, hooks, routing, and local storage by building a practical application.
 
 ---
 
 ## Features
 
-![Data / Todo View](./screenshot/data.png)
+![Todo Data](screenshot/data.png)
 
 - Add new todos with title and description  
 - Delete existing todos  
@@ -23,7 +23,7 @@ In this project, I have focused on practicing concepts like component-based arch
 
 ## Error Handling / Validation
 
-![Error Management](./screenshot/error_manage.png)
+![Error Handling](screenshot/error_manage.png)
 
 - Prevents adding empty title/description  
 - Handles invalid/corrupted local storage data safely using try-catch  
@@ -33,7 +33,7 @@ In this project, I have focused on practicing concepts like component-based arch
 
 ## About Page
 
-![About Page](./screenshot/about.png)
+![About Page](screenshot/about.png)
 
 Contains a separate About route to practice React Router and multi-page navigation.
 
@@ -51,7 +51,7 @@ Contains a separate About route to practice React Router and multi-page navigati
 
 ## Why I Built This
 
-Because through this project I got hands-on practice with:
+Through this project, I got hands-on practice with:
 
 - React Hooks (`useState`, `useEffect`)  
 - Props and Component Communication  
@@ -69,4 +69,3 @@ Because through this project I got hands-on practice with:
 - Search / Filter Todos  
 - Add Priority / Due Date  
 - Improve UI Design Further  
-
