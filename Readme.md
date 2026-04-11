@@ -16,8 +16,7 @@ In this project, I focused on practicing concepts like component-based architect
 - Delete existing todos  
 - Stores todos in browser Local Storage  
 - Routing between Home and About page  
-- Basic form validation for empty inputs  
-- Responsive UI using Bootstrap  
+- Basic form validation for empty inputs entered
 
 ---
 
@@ -44,8 +43,8 @@ Contains a separate About route to practice React Router and multi-page navigati
 - React.js  
 - React Router DOM  
 - Bootstrap  
-- JavaScript (ES6)  
-- Local Storage API  
+- JavaScript
+- Local Storage
 
 ---
 
@@ -53,7 +52,7 @@ Contains a separate About route to practice React Router and multi-page navigati
 
 Through this project, I got hands-on practice with:
 
-- React Hooks (`useState`, `useEffect`)  
+- React Hooks (useState,useEffect)  
 - Props and Component Communication  
 - Form Handling in React  
 - Browser Local Storage  
@@ -68,4 +67,6 @@ Through this project, I got hands-on practice with:
 - Mark Todo as Completed  
 - Search / Filter Todos  
 - Add Priority / Due Date  
-- Improve UI Design Further  
+- Improve UI Design Further
+
+--THANK YOU--
