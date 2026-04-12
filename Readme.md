@@ -1,5 +1,11 @@
 # Todo Upgrade
 
+## Live Demo
+
+[View Live Project](https://todo-upgrad.vercel.app)
+
+This is a basic React based Todo App, I built while experimenting with frontend development to improve my understanding on React
+
 ![Home Page](screenshot/home.png)
 
 This is a React based Todo App that I built while experimenting with frontend development to improve my understanding of React.
