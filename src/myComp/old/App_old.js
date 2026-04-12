@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from "react";
 import Header from "./Header_old";
 import Todos from "./Todos_old";
-import AddTodo_old from "./AddTodo_old.js"
+import AddTodoOld from "./AddTodo_old.js"
 import About from "./About.js"
 import Footer from "./Footer_old";
 import{
   BrowserRouter as Router,
   //Switch,
   Routes,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 function App() { 
@@ -53,7 +52,7 @@ function App() {
   const addTodo = (title, desc) => {
     console.log("I am adding this todo ", title, desc);
     let sno;
-    if (todos.length == 0) {
+    if (todos.length === 0) {
       sno = 1;
     }
     else
@@ -84,7 +83,7 @@ function App() {
             <Routes>           
               <Route exact path="/" element={
                 <>
-                <AddTodo_old addTodo={addTodo} />
+                <AddTodoOld addTodo={addTodo} />
                 <Todos todos={todos} onDelete={onDelete} />  
                 </>
               }>

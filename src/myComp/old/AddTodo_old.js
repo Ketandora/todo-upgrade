@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 
-const AddTodo_old = (props) => {
+const AddTodoOld = (props) => {
     const [title , setTitle]= useState("");
     const [desc, setDesc]= useState("");
     const submit = (e)=>{
@@ -39,4 +39,4 @@ const AddTodo_old = (props) => {
     )
 }
 
-export default AddTodo_old
+export default AddTodoOld
